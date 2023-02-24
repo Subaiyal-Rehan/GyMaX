@@ -1,0 +1,431 @@
+@media only screen and (max-width: 1279px) {
+    /* HEADER */
+
+    .header-container {
+        flex-direction: column;
+    }
+
+    .navbar ul {
+        margin: 20px 0 10px 0;
+    }
+
+    .logo {
+        margin-left: -80px;
+    }
+
+    /* HERO */
+
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .hero-text {
+        font-size: 1.6rem;
+    }
+
+    .btn-primary {
+        height: 25px;
+        width: 120px;
+    }
+
+    /* REGISTER */
+
+    .register h3 {
+        font-size: 45px;
+    }
+
+    .register h4 {
+        font-size: 24px;
+    }
+
+    .btn2 .anchor {
+        font-size: 13px;
+    }
+
+    .btn2 {
+        width: 170px;
+    }
+
+    /* CONTACTS  */
+
+    .address-text ul li {
+        font-size: 24px
+    }
+
+    .address-text ul li i {
+        font-size: 35px;
+    }
+
+    /* FOOTER */
+
+    .footer-columns {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 11px 199px 11px 245px;
+    }
+
+    .footer-column1 {
+        margin-top: 20px;
+        flex: 1;
+    }
+
+    .footer-column2,
+    .footer-column3 {
+        margin-top: 20px;
+        flex: 1;
+    }
+
+    .footer-column2 {
+        margin-top: 30px;
+    }
+
+    .footer-column3 {
+        margin-top: 45px;
+    }
+
+    .footer-column .d-flex i {
+        color: white;
+        margin: 0 5px;
+    }
+
+    .footer-image {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-image-text {
+        font-size: 17px;
+        color: rgb(192, 192, 192);
+    }
+
+    .footer-heading {
+        font-size: 33px;
+        margin-bottom: 10px;
+    }
+
+    .footer-links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-links li {
+        margin-bottom: 10px;
+    }
+
+    .footer-links a {
+        color: white;
+        text-decoration: none;
+        font-size: 21px;
+        color: rgb(192, 192, 192);
+    }
+
+    .footer-line {
+        border-top: 2px solid white;
+        width: 498px;
+        margin: 21px 0;
+        opacity: 0.3;
+    }
+
+    .footer-paragraph {
+        font-size: 17px;
+        margin-bottom: 10px;
+        color: rgb(192, 192, 192);
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    /* WHY CHOOSE US */
+
+    .whychoosebox4 {
+        margin-top: -20px;
+    }
+
+    /* OUR TEAM */
+
+    .train-text {
+        gap: 280px;
+    }
+
+    .train3 {
+        margin-top: -40px;
+    }
+
+    .copyright hr {
+        width: 65vw;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /* WHY CHOOSE US  */
+
+    .whychoosebox3 {
+        margin-top: -20px;
+    }
+
+    /* REGISTER  */
+
+    .register h3 {
+        font-size: 35px;
+    }
+
+    .register h4 {
+        font-size: 20px;
+    }
+
+    .btn2 .anchor {
+        font-size: 12px;
+    }
+
+    /* OUR TEAM */
+
+    .trainer .train2,
+    .trainer .train1 {
+        transform: skewY(0deg);
+    }
+
+    /* CONTACT */
+
+
+    .address-text ul .wrapdown {
+        margin-top: -20px;
+    }
+
+    /* FOOTER */
+
+    .footer-columns {
+        gap: 0 110px;
+    }
+
+    .footer-column3,
+    .footer-column1 {
+        margin-left: -110px;
+    }
+
+    .footer-image-text {
+        font-size: 15px;
+    }
+
+    .copyright hr {
+        width: 83vw;
+    }
+}
+
+@media only screen and (max-width: 639px) {
+    /* OUR TEAM */
+
+    .train-text {
+        gap: 50vw;
+    }
+
+    /* Contact */
+
+    .address-text ul li {
+        font-size: 21px;
+    }
+
+    .address-text ul li i {
+        font-size: 31px;
+    }
+
+    /* FOOTER  */
+
+    .footer-column3,
+    .footer-column2,
+    .footer-column1 {
+        margin-left: -118px;
+    }
+
+    .footer-column3 {
+        margin-left: -195px;
+    }
+
+    .address-text ul .wrapdown2 {
+        margin-top: -20px;
+    }
+
+}
+
+@media only screen and (max-width: 697px) {
+    .navbar a {
+        font-size: 23px;
+    }
+
+    /* HERO */
+
+    .hero-title {
+        font-size: 2.8rem;
+    }
+
+    .hero-text {
+        font-size: 1.3rem;
+    }
+
+    /* OUR TEAM */
+
+    .train-text {
+        gap: 227px;
+    }
+
+    /* FOOTER */
+
+    .footer-image-text {
+        font-size: 13px;
+    }
+
+    .footer-links a {
+        font-size: 19px;
+    }
+
+    .footer-heading {
+        font-size: 30px;
+    }
+
+    .footer-paragraph {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 639px) {
+    /* CONTACT */
+
+    .address-text ul .wrapdown2 {
+        margin-top: 34px;
+    }
+}
+
+@media only screen and (max-width: 572px) {
+    /* WHY CHOOSE US */
+
+    .whychoosebox2 {
+        margin-top: -20px;
+    }
+
+    /* OUR TEAM */
+
+    .train-text {
+        gap: 102px;
+    }
+}
+
+@media only screen and (max-width:530px) {
+    /* WHY CHOOSE US */
+
+    .pushlimit {
+        font-size: 34px;
+    }
+
+    /* FOOTER */
+
+    .footer-column3 {
+        margin-left: -235px;
+    }
+
+    .footer-links a {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 473px) {
+    .address-text ul .wrapdown2 {
+        margin-top: -25px;
+    }
+}
+
+@media only screen and (max-width: 441px) {
+    /* HEADER */
+
+    .navbar a {
+        font-size: 19px;
+    }
+
+    /* REGISTER */
+
+    .register h3 {
+        font-size: 28px;
+    }
+
+    .register h4 {
+        font-size: 15px;
+    }
+
+    .btn2 {
+        width: 160px;
+    }
+
+    .btn2 .anchor {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 441px) {
+    /* REGISTER */
+
+    .register h3 {
+        font-size: 26px;
+    }
+
+    /* FOOTER */
+
+    .footer-image-text {
+        font-size: 13px;
+    }
+}
+
+
+@media only screen and (max-width: 759px) {
+    /* OUR TEAM */
+
+    .train2 {
+        margin-top: -40px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    /* HEADER */
+
+    .navbar a {
+        font-size: 16px;
+    }
+
+    .navbar br {
+        display: block;
+    }
+
+    /* HERO */
+
+    .hero-title {
+        font-size: 2.4rem;
+    }
+
+    .hero-text {
+        font-size: 1rem;
+    }
+
+    .btn-primary {
+        height: 23px;
+        width: 90px;
+    }
+
+    /* WHY CHOOSE US */
+
+    .whychoose-main {
+        font-size: 22px;
+    }
+
+    .pushlimit {
+        font-size: 29px;
+    }
+
+    /* FOOTER */
+
+    .footer-paragraph {
+        font-size: 12px;
+    }
+}
